@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\WeBuyCars\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
+    "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\WeBuyCars\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
+    "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\WeBuyCars\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\User\\Documents\\WeBuyCars\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\WeBuyCars\\AdventOfCode\\AdventOfCode\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
