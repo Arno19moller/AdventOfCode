@@ -7,5 +7,6 @@ var day4 = new Day4();
 var day5 = new Day5();
 var day6 = new Day6();
 var day7 = new Day7();
+var day8 = new Day8();
 
-Console.WriteLine(day7.Execute());
+Console.WriteLine(day8.Execute());
