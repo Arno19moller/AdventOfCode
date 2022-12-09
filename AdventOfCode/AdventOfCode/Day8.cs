@@ -17,6 +17,7 @@ namespace AdventOfCode
             var lines = System.IO.File.ReadAllLines(@"../../../input8.txt");
             var columnCount = lines[0].Length;
             var rowCount = lines.Length;
+            var mostScenic = new List<int>();
 
             var visibleTreeCount = (columnCount * 2) + ((rowCount - 2) * 2);
 
@@ -38,8 +39,9 @@ namespace AdventOfCode
                         columnToConsider.Add(int.Parse(rowTree.value.ToString()));
                     }
 
-                    var leftColumn = columnToConsider.Take(i);
-                    var rightColumn = columnToConsider.Skip(i+1);
+                    var leftColumn = columnToConsider.Take(i).ToList();
+                    leftColumn.Reverse();
+                    var rightColumn = columnToConsider.Skip(i+1).ToList();
 
                     var rowArray = new List<int>();
                     for (int k = 0; k < rowCount; k++)
@@ -48,16 +50,34 @@ namespace AdventOfCode
                         rowArray.Add(int.Parse(lines[k].ElementAt(i).ToString()));
                     }
 
-                    var topRow = rowArray.Take(i);
-                    var bottomRow = rowArray.Skip(i + 1);
-                    if (topRow.All(x => treeSize > x) || bottomRow.All(x => treeSize > x) || leftColumn.All(x => treeSize > x) || rightColumn.All(x => treeSize > x))
-                    {
-                        visibleTreeCount++;
-                    }
+                    var topRow = rowArray.Take(line.i).ToList();
+                    topRow.Reverse();
+                    var bottomRow = rowArray.Skip(line.i + 1).ToList();
+
+                    //Part 1
+                    //if (topRow.All(x => treeSize > x) || bottomRow.All(x => treeSize > x) || leftColumn.All(x => treeSize > x) || rightColumn.All(x => treeSize > x))
+                    //{
+                    //    visibleTreeCount++;
+                    //}
+
+                    //Part 2
+                    var topScore =  topRow.FindIndex(x => x >= treeSize) == -1 ? topRow.Count() : (1 + topRow.FindIndex(x => x >= treeSize));
+                    var bottomScore = bottomRow.FindIndex(x => x >= treeSize) == -1 ? bottomRow.Count() : (1 + bottomRow.FindIndex(x => x >= treeSize));
+                    var leftScore = leftColumn.FindIndex(x => x >= treeSize) == -1 ? leftColumn.Count() : (1 + leftColumn.FindIndex(x => x >= treeSize));
+                    var rightScore = rightColumn.FindIndex(x => x >= treeSize) == -1 ? rightColumn.Count() : (1 + rightColumn.FindIndex(x => x >= treeSize));
+
+                    mostScenic.Add(topScore * bottomScore * leftScore * rightScore);
                 }
             }
 
-            return visibleTreeCount;
+            mostScenic.Sort();
+            mostScenic.Reverse();
+
+            //Part 1
+            //return visibleTreeCount;
+
+            //Part 2
+            return mostScenic[0];
         }
     }
 }

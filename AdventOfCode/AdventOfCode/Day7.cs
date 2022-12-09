@@ -118,22 +118,16 @@ namespace AdventOfCode
             {
                 total.Add(node.DirectorySize);
             }
-            //else
-            //{
-                node.Children.ForEach(x =>
-                {
-                    GetDirectorySizes(x, directorySize);
-                });
-            //}
-            
+
+
+            node.Children.ForEach(x =>
+            {
+                GetDirectorySizes(x, directorySize);
+            });
+
             return;
         }
     }
-
-    //public Directory getParentDir(string dirName)
-    //{
-
-    //}
 
     public class Directory
     {
