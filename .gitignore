@@ -1,0 +1,16 @@
+
+*.v2
+*.vsidx
+*.v2
+*.bin
+*.dll
+*.exe
+*.pdb
+AdventOfCode/AdventOfCode/obj/AdventOfCode.csproj.nuget.dgspec.json
+*.props
+*.cache
+*.exe
+AdventOfCode/.vs/AdventOfCode/v17/.suo
+AdventOfCode/.vs/AdventOfCode/v17/.suo
+AdventOfCode/AdventOfCode/obj/Debug/net6.0/AdventOfCode.csproj.FileListAbsolute.txt
+AdventOfCode/AdventOfCode/obj/project.assets.json

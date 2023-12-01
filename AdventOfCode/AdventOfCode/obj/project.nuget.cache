@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "X5ZhgDsvsuiWrpY4cv9sAxGmZLQU78aI+hPaoyubqTovrFqErhtbNkihcwYmQUb4+VeqevyEsldMXCaDFIcpnw==",
+  "dgSpecHash": "cxsRn2ByZibwFqfAZPqB2727qUlq8FGGQGXYGAIQxNKy7IdYEFu1Lo40PziZ15lTDuegMZ+ZViRKlH7A9A2+HQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\Agile\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+  "projectFilePath": "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
