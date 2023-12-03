@@ -14,7 +14,7 @@ namespace AdventOfCode
 
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input9.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2023/Inputs/input1.txt");
             var rowCount = lines.Length;
             int[] calibrations = new int[rowCount];
 

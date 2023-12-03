@@ -11,7 +11,7 @@ namespace AdventOfCode
     {
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input.txt");
 
             var currentSum = 0;
             var groups = new int[250];

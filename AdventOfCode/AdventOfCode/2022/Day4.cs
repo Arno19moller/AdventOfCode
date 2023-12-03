@@ -10,7 +10,7 @@ namespace AdventOfCode
     {
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input4.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input4.txt");
             //List<int>[] a = new List<int>[2000];
             var total = 0;
 

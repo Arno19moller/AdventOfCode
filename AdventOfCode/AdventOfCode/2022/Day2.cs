@@ -12,7 +12,7 @@ namespace AdventOfCode
     {
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input2.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input2.txt");
             var total = 0;
 
             foreach (var line in lines.Select((value, i) => new { i, value }))

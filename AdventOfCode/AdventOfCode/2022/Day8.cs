@@ -14,7 +14,7 @@ namespace AdventOfCode
 
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input8.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input8.txt");
             var columnCount = lines[0].Length;
             var rowCount = lines.Length;
             var mostScenic = new List<int>();

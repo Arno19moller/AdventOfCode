@@ -10,7 +10,7 @@ namespace AdventOfCode
     {
         public string Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input5.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input5.txt");
             Stack<string>[] stacksReverse = new Stack<string>[9];
             Stack<string>[] stacks= new Stack<string>[9];
             var stackDoneRead = false;

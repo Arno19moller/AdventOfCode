@@ -14,7 +14,7 @@ namespace AdventOfCode
 
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input7.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input7.txt");
             var directory = new Directory();
             var directorySize = 70000000;
             var headDir = directory;

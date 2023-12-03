@@ -10,7 +10,7 @@ namespace AdventOfCode
     {
         public int Execute()
         {
-            var lines = System.IO.File.ReadAllLines(@"../../../input6.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input6.txt");
             var lineChar = lines[0].ToCharArray();
             var compareList = new List<char>();
 

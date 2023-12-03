@@ -11,7 +11,7 @@ namespace AdventOfCode
         public int Execute()
         {
 
-            var lines = System.IO.File.ReadAllLines(@"../../../input3.txt");
+            var lines = System.IO.File.ReadAllLines(@"../../../2022/Inputs/input3.txt");
             var total = 0;
             var roundDone = false;
             var emptyString = " ";
