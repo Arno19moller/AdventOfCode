@@ -1,42 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
+    "C:\\Users\\arno1\\Documents\\Github\\AdventOfCode\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
+    "C:\\Users\\arno1\\Documents\\Github\\AdventOfCode\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "C:\\Users\\arno1\\Documents\\Github\\AdventOfCode\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectPath": "C:\\Users\\arno1\\Documents\\Github\\AdventOfCode\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
         "packagesPath": "C:\\Users\\arno1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arno1\\Documents\\Github_projects\\AdventOfCode2022\\AdventOfCode\\AdventOfCode\\obj\\",
+        "outputPath": "C:\\Users\\arno1\\Documents\\Github\\AdventOfCode\\AdventOfCode\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\arno1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/JPCDZNZ7bcUJtWAkh87fgySiwngtrzy6YopghWIdFTQIbfVA2j/api/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +46,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "System.Text.Encoding": {
               "target": "Package",
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
