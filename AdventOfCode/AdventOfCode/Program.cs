@@ -8,6 +8,6 @@
 //var day6 = new Day6();
 //var day7 = new Day7();
 //var day8 = new Day8();
-var day1 = new Day3_2021();
+var day1 = new Day4_2021();
 
 Console.WriteLine(day1.Execute());
