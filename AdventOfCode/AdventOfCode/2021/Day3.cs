@@ -4,7 +4,7 @@
 	{
 		public int Execute()
 		{
-			var lines = File.ReadAllLines(@"../../../2021/Inputs/day1.txt");
+			var lines = File.ReadAllLines(@"../../../2021/Inputs/day3.txt");
 
 			var oxygen = 0;
 			var scrubber = 0;
