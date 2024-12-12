@@ -1,5 +1,5 @@
 ﻿using AdventOfCode;
 
-var day = new Day9_2024();
+var day = new Day10_2024();
 
 Console.WriteLine(day.Execute());
